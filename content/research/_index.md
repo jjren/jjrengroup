@@ -1,7 +1,6 @@
 ---
 title: "Research Topics"
 type: page
-layout: single
 profile: false
 share: false
 ---

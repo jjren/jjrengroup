@@ -1,7 +1,6 @@
 ---
 title: "Software"
 type: page
-layout: single
 profile: false
 share: false
 ---
