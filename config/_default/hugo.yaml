@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: The Ren Research Group @ BNU # Website name
-baseURL: 'http://jiajunren.win/' # Website URL
+baseURL: 'https://jjren.github.io/jjrengroup/' # Website URL
 
 ############################
 ## LANGUAGE
