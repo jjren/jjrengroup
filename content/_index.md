@@ -1,80 +1,131 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2025-09-02
 type: landing
 
 sections:
-  - block: hero
+  - block: slider
     content:
-      title: |
-        Wowchemy
-        Research Group
-      image:
-        filename: welcome.jpg
-      text: |
-        <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
+      slides:
+      - title: 👋 Welcome to the Jiajun Ren Research Group @ Beijing Normal University
+        content: We develop accurate quantum chemistry methods for efficient simulating structures and dynamics of molecules and materials.
+        align: center
+        background:
+          image:
+            filename: welcome.jpg
+            filters:
+              brightness: 0.7
+          position: right
+          color: '#666'
+      - title: Current Research Topics
+        content: Electron-vibration coupled dynamics, tensor network, quantum algorithm 
+        align: left
+        background:
+          image:
+            filename: research.png
+            filters:
+              brightness: 0.7
           position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+          color: '#555'
+        link:
+          icon: book-open
+          icon_pack: fas
+          text: Learn more
+          url: ../research/
 
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
+      - title: A Supportive and Collaborative Lab Environment
+        content: 'We are seeking for researchers at all levels to join us!'
+        align: center
+        background:
+          image:
+            filename: group.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#333'
+        link:
+          icon: people-group
+          icon_pack: fas
+          text: Meet Us
+          url: ../people/
     design:
-      view: citation
-      columns: '1'
-
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
+      slide_height: '300px'
+      is_fullscreen: true
+      # Automatically transition through slides?
+      loop: true
+      # Duration of transition between slides (in ms)
+      interval: 3000
+#  - block: hero
+#    content:
+#      title: |
+#        Welcome to the Jiajun Ren Research Group @ BNU
+#      image:
+#        filename: welcome.jpg
+#      text: |
+#        <br>
+#         
+#         We develop accurate quantum chemistry methods for simulating structure and dynamics of molecules and materials.
+   
+#  - block: collection
+#    content:
+#      title: Latest News
+#      subtitle:
+#      text:
+#      count: 5
+#      filters:
+#        author: ''
+#        category: ''
+#        exclude_featured: false
+#        publication_type: ''
+#        tag: ''
+#      offset: 0
+#      order: desc
+#      page_type: post
+#    design:
+#      view: card
+#      columns: '1'
+#  
+#  - block: markdown
+#    content:
+#      title:
+#      subtitle: ''
+#      text:
+#    design:
+#      columns: '1'
+#      background:
+#        image: 
+#          filename: coders.jpg
+#          filters:
+#            brightness: 1
+#          parallax: false
+#          position: center
+#          size: cover
+#          text_color_light: true
+#      spacing:
+#        padding: ['20px', '0', '20px', '0']
+#      css_class: fullscreen
+#
+#  - block: collection
+#    content:
+#      title: Latest Preprints
+#      text: ""
+#      count: 5
+#      filters:
+#        folders:
+#          - publication
+#        publication_type: 'article'
+#    design:
+#      view: citation
+#      columns: '1'
+#
+#  - block: markdown
+#    content:
+#      title:
+#      subtitle:
+#      text: |
+#        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+#    design:
+#      columns: '1'
 ---

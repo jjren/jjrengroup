@@ -1,0 +1,60 @@
+// Custom variables
+:root {
+  --primary-color: #1A365D;
+  --secondary-color: #E53E3E;
+  --background-light: #F7FAFC;
+  --text-dark: #2D3748;
+  --spacing-unit: 1rem;
+}
+
+// Typography
+body {
+  font-family: 'Helvetica', sans-serif;
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+// Buttons
+.btn-primary.active, .btn-primary:active, .btn-primary.selected {
+  background-color: #3B5998; // Replace with your preferred color
+}
+
+// Responsive improvements (e.g., on mobile)
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+// Custom scrollbar
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+/* Increase font size of main navigation tabs */
+nav .navbar-nav > .nav-item > .nav-link,
+.navbar .navbar-nav > .nav-item > .nav-link {
+  font-size: 1.0rem;   // Adjust this value as needed (e.g., 1.5rem for even larger)
+  font-weight: 500;     // Optional: make it a bit bolder
+  letter-spacing: 0.01em; // Optional: add a little spacing for clarity
+}
+

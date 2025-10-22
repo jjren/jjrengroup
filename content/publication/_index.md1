@@ -1,0 +1,16 @@
+---
+title: Publications
+
+## Listing view
+#view: citation
+
+{{< partial "publication_list.html" . >}}
+
+## Optional banner image (relative to `assets/media/` folder).
+#banner:
+#  caption: ''
+#  image: ''
+---
+
+
+
