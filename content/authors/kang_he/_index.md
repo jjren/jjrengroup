@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Wencheng Zhao (赵文呈)
+title: Kang He (何康)
 
 # Full Name (for SEO)
-first_name: Wencheng
-last_name: Zhao
+first_name: Kang
+last_name: He
 
 # Username (this should match the folder name)
 authors:
-  - wencheng_zhao
+  - kang_he
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: PhD Student (2024 -)
+role: MSc Student (2025 -)
 
 # Organizations/Affiliations
 organizations:
@@ -25,25 +25,22 @@ organizations:
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - Quantum Algorithms for Open Quantum Dynamics
+  - Quantum Algorithms for Quantum Chemistry
 
 education:
   courses:
-    - course: BSc in Physics
-      institution: Shandong University
-      year: 2023
     - course: BSc in Chemistry
-      institution: XXX
-      year: 2023
+      institution: Beijing Normal University
+      year: 2025
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:wczwuli@163.com'
+#social:
+#  - icon: envelope
+#    icon_pack: fas
+#    link: 'mailto:test@example.org'
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen
@@ -69,6 +66,7 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups: 
   - Graduate Students
-weight: 1
+weight: 7
 ---
 
+Kang He is co-supervised with Prof. Wei-Hai Fang.
