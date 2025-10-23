@@ -1,5 +1,5 @@
 ---
-title: Prof. Xing Gao from Sun Yat-sen University visited our group and gave a talk
+title: Prof. Xing Gao from Sun Yat-sen University visited our group and gave a talk.
 date: 2025-09-14
 tags: ["Talks"]
 image:
@@ -10,6 +10,6 @@ profile: false
 share: false
 ---
 
-The title of the talk is "Quantum simulation of charge and energy
-transport dynamics in complex systems".
+The title of the talk is "Quantum Simulation of Charge and Energy
+Transport Dynamics in Complex Systems".
 <!--more-->

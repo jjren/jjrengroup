@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} The Ren Research Group. All rights reserved.'
+    notice: '© {year} The Ren Research Group @ Beijing Normal University. All rights reserved.'
     license:
       enable: false
       allow_derivatives: false

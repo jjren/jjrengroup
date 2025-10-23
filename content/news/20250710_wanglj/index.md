@@ -1,5 +1,5 @@
 ---
-title: Prof. Linjun Wang from Zhejiang University visited our group and gave two talks
+title: Prof. Linjun Wang from Zhejiang University visited our group and gave two talks.
 date: 2025-07-10
 tags: ["Talks"]
 image:
