@@ -37,15 +37,15 @@ social:
   - icon: envelope
     icon_pack: fas
     link: "mailto:jjren@bnu.edu.cn"
-#  - icon: twitter
-#    icon_pack: fab
-#    link: https://twitter.com/liuqiao_
-  - icon: orcid
-    icon_pack: fab
-    link: https://orcid.org/0000-0002-1508-4943
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=zW5az9wAAAAJ&hl=en&oi=ao
+  - icon: researchgate
+    icon_pack: ai
+    link: https://www.researchgate.net/profile/Jiajun-Ren-3
+  - icon: orcid
+    icon_pack: fab
+    link: https://orcid.org/0000-0002-1508-4943
   - icon: github
     icon_pack: fab
     link: https://github.com/jjren

@@ -31,10 +31,10 @@ education:
   courses:
     - course: BSc in Physics
       institution: Shandong University
-      year: 2023
-    - course: BSc in Chemistry
-      institution: XXX
-      year: 2023
+      year: 2019
+    - course: MSc in Theoretical Physics
+      institution: China University of Mining and Technology-Beijing
+      year: 2024
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

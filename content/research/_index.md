@@ -23,10 +23,7 @@ nonradiative decay rate in molecular aggregates, leading to an
 apparent "violation" of the classical energy gap law [1-2].
 </div>
 
-<div style="display: flex; align-items: stretch; gap: 0px;">
-  <img src="/images/research/energy_transport.png" style="height: 300px; width: auto;">
-  <img src="/images/research/knr.jpg" style="height: 300px; width: auto;">
-</div>
+<img src="/images/research/research1.jpg" style="width: 100%; height: auto;">
 
 <div style="font-size:0.85em; line-height:1.4em; text-align:justify; margin-top:1em;">
 
@@ -83,10 +80,7 @@ multi-set variational quantum dynamics algorithm that extends
 quantum simulations to nonadiabatic problems [5].
 </div>
 
-<div style="display: flex; align-items: stretch; gap: 0px;">
-  <img src="/images/research/qc.jpg" style="height: 300px; width: auto;">
-  <img src="/images/research/msvqd.jpg" style="height: 300px; width: auto;">
-</div>
+<img src="/images/research/research3.jpg" style="width: 100%; height: auto;">
 
 <div style="font-size:0.85em; line-height:1.4em; text-align:justify; margin-top:1em;">
 

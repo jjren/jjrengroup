@@ -40,7 +40,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:1793496483@qq.com'
+    link: 'mailto:xingyangzuo@163.com'
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen
@@ -68,4 +68,4 @@ user_groups:
   - Graduate Students
 weight: 5
 ---
-
+I'm always happy to discuss research ideas or questions — feel free to reach out to me by email.
