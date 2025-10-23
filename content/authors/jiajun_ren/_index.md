@@ -77,8 +77,8 @@ Email: jjren AT bnu.edu.cn
 - 2014.08 - 2019.07: Ph.D. in Physical Chemistry, Tsinghua University, Supervisor: Prof. Zhigang Shuai
 - 2017.03 - 2017.09: Visiting Student Researcher, in Garnet Chan Group, California Institute of Technology
 - 2019.07 - 2021.11: Postdoc (Shuimu Scholar Program), in Zhigang Shuai Group, Tsinghua University
-- 2021.12 - 2025.07 : Associate Professor, College of Chemistry, Beijing Normal University
-- 2025.07 - now : Professor, College of Chemistry, Beijing Normal University
+- 2021.12 - 2025.08 : Associate Professor, College of Chemistry, Beijing Normal University
+- 2025.09 - now : Professor, College of Chemistry, Beijing Normal University
 
 ### Honours and Awards
 - 2020 CCS Excellent Doctoral Dissertation Award in Theoretical Chemistry (中国化学会理论化学优秀博士论文奖)
