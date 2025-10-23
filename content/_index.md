@@ -9,7 +9,7 @@ sections:
     content:
       slides:
       - title: 👋 Welcome to the Jiajun Ren Research Group @ Beijing Normal University
-        content: We develop accurate quantum chemistry methods for efficient simulating structures and dynamics of molecules and materials.
+        content: We develop accurate methods for efficient simulating quantum dynamics of molecules and materials.
         align: center
         background:
           image:
