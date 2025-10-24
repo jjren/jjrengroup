@@ -1,0 +1,28 @@
+{{ define "main" }}
+<section class="container mx-auto my-10 px-4">
+
+  <!-- 标题 + Welcome -->
+  <div class="text-center mb-10">
+    <h1 class="text-4xl font-bold mb-4">Group Gallery</h1>
+    <div class="text-gray-600 max-w-2xl mx-auto" style="font-size:
+      1.2rem; font-weight:600;">
+      Welcome to our group photo gallery! 🎉<br>
+      Here we share moments from our group activities, seminars, and outings.
+    </div>
+  </div>
+
+  <!-- 图片列表，每张图片宽度约一半页面 -->
+  {{ range .Site.Data.gallery }}
+    <div class="mx-auto mb-6" style="width:50%;">
+      <img 
+        src="{{ .image | relURL }}" 
+        alt="{{ .description }}" 
+        class="w-full h-40 object-cover rounded-xl shadow-lg transition duration-300 transform hover:scale-105 hover:shadow-2xl"
+      >
+      <p class="text-center text-gray-700 text-sm mt-2">{{ .description }}</p>
+    </div>
+  {{ end }}
+
+</section>
+{{ end }}
+

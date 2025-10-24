@@ -11,3 +11,5 @@ share: false
 ---
 
 <!--more-->
+![Jingjing Li defending her thesis](lijj2.png)
+
