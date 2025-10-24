@@ -18,7 +18,7 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'Welcome to the Jiajun Ren Research Group @ Beijing Normal University. We develop accurate methods for efficient simulating quantum dynamics of molecules and materials.'
+    description: 'Welcome to the Jiajun Ren Research Group @ Beijing Normal University. We develop accurate methods for efficient simulating quantum dynamics and dynamical properties of molecules and materials.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
