@@ -16,7 +16,7 @@ sections:
         
         We are a theoretical chemistry team affiliated with
         [the Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education](http://www.chem.bnu.edu.cn/zdsys/llyjsghxjybzdsys/), led
-        by [Prof. Wei-Hai Fang](http://www.chem.bnu.edu.cn/szll/lyys/121276.html). 
+        by [Prof. Wei-Hai Fang (方维海)](http://www.chem.bnu.edu.cn/szll/lyys/121276.html). 
         Our team focuses on
         exploring novel time-dependent, non-equilibrium
         phenomena and dynamical properties of electronic
