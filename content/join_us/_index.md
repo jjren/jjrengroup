@@ -44,6 +44,9 @@ an independent, high-impact researcher. You will be encouraged
 to publish first-author papers, present at conferences, and
 build a strong foundation for your future career.
 
+**[2026年北京师范大学博士研究生招生简章](https://yz.bnu.edu.cn/detail/f8768233-9d98-4af1-92b1-e1bbc5a2d25b)，报名时间11月10日到12月1日。**
+
+
 ## Undergraduate Students 
 
 We offer research opportunities for undergraduates to:
