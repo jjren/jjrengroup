@@ -41,6 +41,15 @@ header:
     show_search: true
     highlight_active_link: false
 
+    # ▼▼▼ 您需要修改或添加的部分 ▼▼▼
+    logo:
+      # 1. 确保 'logo_with_text.png' 已经放在 'assets/media/' 文件夹
+      # 2. 在下面更新这个文件名
+      filename: 'logo.svg'
+
+      # (可选但推荐) 为这个新 logo 添加 'alt' 文本
+      alt_text: 'The Ren Research Group @ BNU'
+
 # Site footer
 
 footer:
