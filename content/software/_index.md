@@ -20,7 +20,7 @@ exact quantum dynamics simulations involving hundreds to
 thousands of degrees of freedom. The major part of the package
 was written by Jiajun Ren and Weitang Li when they were PhD
 students in Prof. Zhigang Shuai's group. The package continues
-to be developed and maintained through a collaboration between
+to be developed and maintained through a close collaboration between
 the [Shuai](http://www.shuaigroup.net/index.php), Ren, and [Li](https://weitangligroup.com/) groups.
 
 [View Renormalizer on GitHub](https://github.com/shuaigroup/Renormalizer).

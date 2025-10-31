@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: The Ren Research Group @ BNU # Website name
+title: Jiajun Ren Group @ Beijing Normal University # Website name
 baseURL: 'http://jjrengroup.com/' # Website URL
 
 ############################
