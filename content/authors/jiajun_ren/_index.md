@@ -34,6 +34,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+  - icon: house
+    icon_pack: fas
+    link: http://www.chem.bnu.edu.cn/szll/zzjs/llhwlhx/a784366f693640b49fd46fbf4315232f.htm
   - icon: envelope
     icon_pack: fas
     link: "mailto:jjren@bnu.edu.cn"
