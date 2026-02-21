@@ -1,0 +1,82 @@
+{{ define "main" }}
+<div class="max-w-4xl mx-auto px-4">
+  <!-- 页面标题居中 -->
+  <h1 class="text-4xl font-bold text-center mb-8">Publications</h1>
+  <p class="text-left text-sm text-gray-600 mb-8">
+  Note: The PDFs are for personal use only.
+ </p>
+  <!-- 获取所有 publication 页面，按日期倒序 -->
+  {{ $pubs := .Pages.ByDate.Reverse }}
+  {{ $currentYear := "" }}
+  {{ $beforeBNUShown := false }}
+  {{ $counter := 0 }}
+
+  {{ range $i, $pub := $pubs }}
+    {{ $year := $pub.Date.Format "2006" }}
+
+    <!-- 如果年份发生变化，输出年份标题 -->
+    {{ if ne $year $currentYear }}
+      {{ if ne $currentYear "" }}</ol>{{ end }}
+      <!-- 仅在年份为 2021 之前的第一组文章前显示 Before BNU -->
+    {{ if and (not $beforeBNUShown) (lt (int $year) 2022) }}
+      <h2 class="mt-10 mb-4 text-2xl font-bold border-b pb-1">Before BNU</h2>
+      {{ $beforeBNUShown = true }}
+    {{ end }}
+      <h2 class="mt-10 mb-4 text-2xl font-bold border-b pb-1">{{ $year }}</h2>
+      <ol class="list-decimal ml-6 space-y-3">
+      {{ $currentYear = $year }}
+      {{ $counter = 0 }}
+    {{ end }}
+
+    {{ $counter = add $counter 1 }}
+
+    <!-- 单篇文献 -->
+    <li class="leading-relaxed">
+
+      <!-- 作者列表：名在前，姓在后，用分号分隔 -->
+      {{ $authorList := slice }}
+      {{ range $a := $pub.Params.authors }}
+        {{ $first := "" }}
+        {{ $last := "" }}
+        {{ $parts := split $a "," }}
+        {{ if eq (len $parts) 2 }}
+          {{ $first = trim (index $parts 1) " " }}
+          {{ $last = trim (index $parts 0) " " }}
+        {{ else }}
+          {{ $tokens := split $a " " }}
+          {{ if gt (len $tokens) 1 }}
+            {{ $last = index $tokens 0 }}
+            {{ $first = delimit (slice (slice $tokens 1)) " " }}
+          {{ else }}
+            {{ $first = index $tokens 0 }}
+            {{ $last = "" }}
+          {{ end }}
+        {{ end }}
+        {{ $authorList = $authorList | append (print $first " " $last) }}
+      {{ end }}
+      {{ delimit $authorList "; " }}.
+
+      <!-- 文章标题，超链接到 DOI 或 URL -->
+      <a href="{{ if $pub.Params.doi }}https://doi.org/{{ $pub.Params.doi }}{{ else if $pub.Params.url }}{{ $pub.Params.url }}{{ else }}#{{ end }}"
+         class="text-blue-700 hover:underline font-semibold"
+         target="_blank">
+         {{ $pub.Title }}
+      </a>.
+
+      <!-- ACS 格式: 期刊名(斜体) 年, 卷(期), 页码 -->
+      <strong><em>{{ $pub.Params.publication }}</em></strong>
+      {{ if $year }} {{ $year }}{{ end }},
+      {{ if $pub.Params.volume }} {{ $pub.Params.volume }}{{ end }}
+      {{ if $pub.Params.issue }}({{ $pub.Params.issue }}){{ end }},
+      {{ if $pub.Params.pages }} {{ $pub.Params.pages }}{{ end }}.
+
+      <!-- PDF 超链接 -->
+      {{ with .Resources.GetMatch .Params.pdf }}
+        [<a href="{{ .RelPermalink }}" target="_blank">PDF</a>]
+      {{ end }}
+    </li>
+  {{ end }}
+  </ol>
+</div>
+{{ end }}
+

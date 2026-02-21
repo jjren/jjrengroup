@@ -82,6 +82,7 @@ Email: jjren AT bnu.edu.cn
 - 2019.07 - 2021.11: Postdoc (Shuimu Scholar Program), in Zhigang Shuai Group, Tsinghua University
 - 2021.12 - 2025.08 : Associate Professor, College of Chemistry, Beijing Normal University
 - 2025.09 - now : Professor, College of Chemistry, Beijing Normal University
+- 2025.12 - now : PI, [Institute for Advanced Study](https://gdyjy.bnu.edu.cn/), Beijing Normal University
 
 ### Honours and Awards
 - 2020 CCS Excellent Doctoral Dissertation Award in Theoretical Chemistry (中国化学会理论化学优秀博士论文奖)
