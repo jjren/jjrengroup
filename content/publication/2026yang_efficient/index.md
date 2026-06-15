@@ -1,17 +1,16 @@
 ---
 title: Efficient simulation of non-Markovian path integrals via imaginary time evolution of an effective Hamiltonian
-preprint: true
 authors:
 - Yang, Xiaoyu
 - Liu, Limin
 - Zhao, Wencheng
 - Ren*, Jiajun
 - Fang, Wei-Hai
-publication: arXiv
-volume: '2602.13797'
+publication: The Journal of Chemical Physics
+volume: '164'
 # issue: ' '
-# pages: ' '
-date: '2026-02-14'
-doi: 10.48550/arXiv.2602.13797
-pdf: "2602.13797v1.pdf"
+pages: '234106'
+date: '2026-06-15'
+doi: 10.1063/5.0328369
+pdf: "2026yang_efficient.pdf"
 ---
