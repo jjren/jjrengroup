@@ -47,7 +47,7 @@ coupled dynamics, providing powerful tools for photophysical
 processes in complex environments [3]. We recently developed a
 hybrid method that integrates tensor-network algorithms with the
 real-time path integral approach for simulating dissipative
-open-system dynamics [4].
+open-system dynamics [4-5].
 </div>
 
 <img src="/images/research/mps.png" style="width: 100%; height: auto;">
@@ -58,7 +58,9 @@ open-system dynamics [4].
 Shuai\*. *Wiley Interdisciplinary Reviews: Computational Molecular
 Science* 2022, 12 (6), e1614. <br>
 [4] Limin Liu; Jiajun Ren\*; Wei-Hai Fang. *The Journal of
-Chemical Physics* 2024, 161 (8), 084101.
+Chemical Physics* 2024, 161 (8), 084101. <br>
+[5] Xiaoyu Yang; Limin Liu; Wencheng Zhao; Jiajun Ren\*; Wei-Hai
+Fang. *The Journal of Chemical Physics* 2026, 164, 234106.
 </div>
 
 ## 3. Quantum Algorithms for Quantum Dynamics
@@ -77,14 +79,14 @@ quantum algorithms, leveraging insights from both paradigms.
 Recently, inspired by the multi-set wavefunction formalism used
 in classical tensor network algorithms, we have proposed a
 multi-set variational quantum dynamics algorithm that extends
-quantum simulations to nonadiabatic problems [5].
+quantum simulations to nonadiabatic problems [6].
 </div>
 
 <img src="/images/research/research3.jpg" style="width: 100%; height: auto;">
 
 <div style="font-size:0.85em; line-height:1.4em; text-align:justify; margin-top:1em;">
 
-[5] Jingjing Li; Weitang Li; Xiaoxiao Xiao; Limin Liu; Zhendong Li;
+[6] Jingjing Li; Weitang Li; Xiaoxiao Xiao; Limin Liu; Zhendong Li;
 Jiajun Ren\*; Wei-Hai Fang. *The Journal of Physical Chemistry Letters* 2025, 16
 (16), 3911-3919.
 </div>

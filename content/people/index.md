@@ -56,6 +56,7 @@ sections:
         - Zhao Zhang (张兆), MSc student (2022-2025), now a teacher at Songjiang High School Affiliated to Donghua University.
         - Jingjing Li (李晶晶), MSc student (2022-2025), now a teacher at Yulin No.14 High School of Shaanxi Province.
         - Mingxuan Wu (武明轩), undergraduate student (2023-2024), now graduate student at ICCAS.  
+        - Li Liu (刘莉), MSc student (2023-2026), now a teacher in Qingdao.
         </div>
     design:
       background:

@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Xiaoyu Yang (杨肖雨)
+title: Jinghuan Liu (刘靖寰)
 
 # Full Name (for SEO)
-first_name: Xiaoyu
-last_name: Yang
+first_name: Jinghuan
+last_name: Liu
 
 # Username (this should match the folder name)
 authors:
-  - xiaoyu_yang
+  - jinghuan_liu
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: PhD Student (2024 -)
+role: PhD Student (2026 -)
 
 # Organizations/Affiliations
 organizations:
@@ -22,16 +22,19 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+#bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - Tensor Network Algorithms for Open Quantum Dynamics
+  - Machine Learning for Quantum Dynamics
 
 education:
   courses:
     - course: BSc in Chemistry
-      institution: Hubei University
+      institution: China University of Petroleum (East China)
       year: 2024
+    - course: MSc in Chemistry
+      institution: China University of Petroleum (East China)
+      year: 2026
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -40,7 +43,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:2246623589@qq.com'
+    link: 'mailto:2535930844@qq.com'
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen
@@ -66,6 +69,6 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups: 
   - Graduate Students
-weight: 3
+weight: 4
 ---
 
